@@ -1,4 +1,4 @@
-PesetaCoin integration/staging tree
+COMUNICoin integration/staging tree
 ================================
 
 http://www.pesetacoin.info
