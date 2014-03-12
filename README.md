@@ -1,6 +1,8 @@
 COMUNICoin integration/staging tree
 ================================
 
+19940   29940
+
 http://www.pesetacoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers

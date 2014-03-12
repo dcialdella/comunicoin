@@ -1085,8 +1085,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 2 * 60 * 60; // Pesetacoin: 3.5 days
-static const int64 nTargetSpacing = 60; // Pesetacoin: 2.5 minutes
+static const int64 nTargetTimespan = 12 * 60 * 60; // 3.5 days
+static const int64 nTargetSpacing = 120; //  2 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2965,7 +2965,7 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1388528588;
+        block.nTime    = 1300000000;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2151022;
 
@@ -2973,7 +2973,7 @@ bool InitBlockIndex() {
 
         if (fTestNet)
         {
-            block.nTime    = 1388512432;
+            block.nTime    = 1300000000;
             block.nNonce   = 1358256;
         }
 

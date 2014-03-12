@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 47, // PesetaCoin addresses start with L
+        PUBKEY_ADDRESS = 38, //  addresses start with char(38)
         SCRIPT_ADDRESS = 22,
         PUBKEY_ADDRESS_TEST = 113, // testnet keys start with T
         SCRIPT_ADDRESS_TEST = 196,
